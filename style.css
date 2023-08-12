@@ -171,3 +171,50 @@ img{
     justify-content: center;
     border-radius: 5px;
 }
+
+footer{
+    position: absolute;
+    left: 10px;
+    bottom: -100%;
+}
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    body {
+        background-size: auto; /* Adjust background size for better visibility on smaller screens */
+        min-height: auto; /* Remove min-height to allow content to adjust */
+    }
+    
+    main {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        padding: 10px; /* Adjust padding for spacing */
+    }
+    
+    section {
+        height: auto; /* Allow section to adjust height */
+        max-width: 100%; /* Full width for smaller screens */
+    }
+   
+    #graphers {
+        max-width: 100%; /* Make the graphers section full width */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    #bio-1, #bio-2 {
+        width: 100%; /* Make the bio sections full width */
+        padding: 10px; /* Adjust padding for spacing */
+    }
+    
+    form {
+        position: static; /* Reset position for form */
+        width: 100%; /* Full width for form on smaller screens */
+        right: auto; /* Reset right positioning */
+        transform: none; /* Reset transform */
+    }
+    
+    footer {
+        position: static; /* Reset position for footer */
+        bottom: auto; /* Reset bottom positioning */
+    }
+}
+
