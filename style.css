@@ -5,58 +5,67 @@
     font-family: 'Segoe UI';
 }
 body{
-    background-image: url(images/background.jpg) ;
+    background: url(images/bg.jpg) no-repeat ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     background-size: cover;
+    min-height: 100vh; 
+    color: white;
 }
 
 main{
     width: 100%;
     height: auto;
     background-color: transparent;
-    padding: 10px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-.logo{
-    font-size: 20x;
-    font-weight: 700;
-    color: rgb(20, 219, 99);
-}
+
 .logo h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 0, 195);
 }
 .navbar{
     font-size: 18px;
     font-weight: 600;
 }
 .navbar a{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 10px;
     transition: .8s ease-in-out;
 }
 .navbar a:hover,
 .navbar a.active{
-    color: aqua;
+    color: rgb(255, 0, 195);
 }
 
 section{
-    padding: 15px;
+    padding: 15px 30px;
     display: flex;
-    height: 80vh;
+    height: 50vh;
     max-width: 60%;
     justify-content: center;
     align-items: center;
 }
 .content h1{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    color: tomato;
+    color: rgb(227, 56, 25);
+}
+.content h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+    font-family: cursive;
 }
 
 .content p{
     font-size: 18px;
     line-height: 1.5em;
 }
+
