@@ -179,9 +179,10 @@ footer{
 }
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
-    body {
+       body {
         background-size: auto; /* Adjust background size for better visibility on smaller screens */
         min-height: auto; /* Remove min-height to allow content to adjust */
+        margin-left: 30px;
     }
     
     main {
@@ -198,6 +199,7 @@ footer{
         max-width: 100%; /* Make the graphers section full width */
         flex-direction: column; /* Stack items vertically on smaller screens */
         align-items: center; /* Center items horizontally */
+        margin: 10px 40px;
     }
     
     #bio-1, #bio-2 {
@@ -210,6 +212,7 @@ footer{
         width: 100%; /* Full width for form on smaller screens */
         right: auto; /* Reset right positioning */
         transform: none; /* Reset transform */
+        margin-right: 60px;
     }
     
     footer {
