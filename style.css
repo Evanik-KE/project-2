@@ -206,6 +206,23 @@ footer{
     color: rgb(255, 0, 195);
 }
 
+.social-media{
+    position: absolute;
+    right: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.social-media a{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 
 
