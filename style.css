@@ -10,7 +10,7 @@ body{
     justify-content: center;
     width: 100%;
     background-size: cover;
-    min-height: 100vh; 
+    min-height: 120vh; 
     color: white;
 }
 
@@ -135,4 +135,3 @@ label{
     color: white;
     background: linear-gradient(to right, orange, rgb(255, 0, 195), orange );
 }
-
