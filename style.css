@@ -198,6 +198,12 @@ footer{
     text-decoration: none;
     margin-left: 20px;
     color: white;
+    transition: .8s;
+    padding: 10px;
+}
+
+.bar a:hover{
+    color: rgb(255, 0, 195);
 }
 
 
