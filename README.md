@@ -14,14 +14,15 @@ Welcome to LensCraft, your gateway to a world where moments are immortalized thr
 Experience the LensCraft locally, follow these steps:
 Clone the Repository using:
 git clone https://github.com/Evanik-KE/project-2.git
+
 cd project-2
 
 Open the Project:
 After cloning the repository, open using VS code and use Live Server
 
-Open in Browser:
-Once the local server is running, open your web browser and navigate to http://127.0.0.1:5500/index.html
+Open in Browser
+
 
 ## Live Site
-Check out the live version of the LensCraft
+Check out the live version of the LensCraft-
 [LensCraft](https://evanik-ke.github.io/project-2/)
