@@ -12,6 +12,7 @@ body{
     background-size: cover;
     min-height: 120vh; 
     color: white;
+    background-color: black;
 }
 
 main{
@@ -134,4 +135,38 @@ label{
 #login:hover{
     color: white;
     background: linear-gradient(to right, orange, rgb(255, 0, 195), orange );
+}
+#graphers{
+    position: absolute;
+    max-width: 60%;
+    display: flex;
+    margin: 10px 0;
+}
+#bio-1{
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(orange, rgba(255, 0, 195, 0.582));
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+#bio-2{
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(0, 255, 179), rgba(255, 0, 195, 0.586));
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+img{
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
